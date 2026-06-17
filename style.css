@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    background: rgb(53, 53, 51);
+    display: flex;
+    justify-content: center;
+}
+.resume{
+    width: 715px;
+    height: 700px;
+    border: 20px groove rgb(50, 31, 31);
+    overflow: hidden;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.1);
+}
+.header{
+    background: rgba(197, 76, 24, 0.427);
+    padding: 35px;
+    text-align: center;
+    font-size: 30px
+    color: rgb(82, 204, 41);
+}
+.email{
+    word-break: break-all;
+}
+li{
+    padding-bottom: 5px;
+}
+ul{
+    padding-left: 20px;
+}
+.main{
+    display: flex;
+}
+.left-side{
+    background-color: rgb(215, 207, 207);
+    padding: 15px;
+    width: 43%;
+}
+.text{
+    position: relative;
+    bottom: 100px;
+}
+.right-side{
+    width: 67%;
+    padding-left: 15px;
+    background-color: white;
+}
+.img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    position: relative;
+    top: -106px;
+    left: 5px;
+}
+section{
+    margin-bottom: 22px;
+}
+section h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
